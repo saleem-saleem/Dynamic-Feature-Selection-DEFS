@@ -1,4 +1,4 @@
-DE-FS Algorithm: Dynamic Feature Ensemble Evolution for Enhanced Feature Selection
+#DE-FS Algorithm: Dynamic Feature Ensemble Evolution for Enhanced Feature Selection
 Overview
 The DE-FS Algorithm is an advanced feature selection technique designed to optimize classification performance by dynamically integrating multiple feature selection methods with adaptive thresholding. This repository contains the Python implementation of the algorithm, enabling researchers to replicate and evaluate its performance on various datasets.
 
