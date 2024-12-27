@@ -2,27 +2,32 @@
 
 
 <b>Overview</b>
-<p>The DE-FS Algorithm is an advanced feature selection technique designed to optimize classification performance by dynamically integrating multiple feature selection methods with adaptive thresholding. This repository contains the Python implementation of the algorithm, enabling researchers to replicate and evaluate its performance on various datasets.</p>
+<p>TThe DE-FS Algorithm is an innovative feature selection technique designed to address the dynamic nature of datasets, particularly in domains like Educational Data Mining (EDM). By combining traditional feature selection methods with adaptive thresholding, the DE-FS Algorithm selects the most relevant features for classification, improving prediction accuracy and robustness.</p>
 
 <b>Features</b>
-<ol>Combines multiple feature selection methods </ol>
-<ol>Dynamically adjusts feature importance thresholds based on evaluation metrics.</ol>
-<ol>Iteratively refines the feature subset to maximize model accuracy.</ol>
-<ol> Outputs an optimal feature subset for enhanced classification performance </ol>
+
+1. Combines traditional feature selection methods (e.g., Chi-Square, Information Gain, Correlation Analysis) with dynamic thresholds.
+
+2. Adapts to evolving data patterns through iterative evaluation and threshold adjustment.
+
+3. Outputs an optimal feature subset that maximizes the chosen evaluation metric (e.g., accuracy, F1-score).
+
+4. Suitable for diverse domains such as bioinformatics, education, and healthcare.
 
 <b>Applications</b>
 
-The DE-FS algorithm is suitable for datasets in:
+The DE-FS Algorithm can be applied to:
 
-<ol>Bioinformatics</ol>
-<ol>Educational Data Mining</ol>
-<ol>Medical Diagnostics</ol>
-<ol>Financial Analytics</ol>
+1. Predict student performance in educational systems.
+
+2. Improve classification accuracy in medical diagnostics.
+
+3. Identify key features in high-dimensional datasets for financial analytics and more.
 
 <b>Prerequisites</b> 
 
-<ol>Python 3.7 or higher</ol>
-<ol>Required libraries: numpy pandas scikit-learn</ol>
+1. Python 3.7 or higher
+2.  Required libraries: numpy pandas scikit-learn
 
 
 <b>Algorithm Workflow</b>
