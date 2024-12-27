@@ -165,3 +165,30 @@ Save Results:
           Visualize Feature Importance:
           
           Use libraries like Matplotlib to plot feature importance scores or correlations.
+
+
+<b>Modules</b>
+
+
+This repository contains the following modules to facilitate the use of the DE-FS Algorithm:
+
+1. de_fs_algorithm.py:
+
+Core implementation of the DE-FS Algorithm. Dynamically selects an optimal feature subset using multiple feature selection methods.
+
+2. visualization.py:
+
+Provides utility functions to visualize feature importance scores.
+
+3. cross_validation.py:
+
+Implements cross-validation for evaluating selected feature subsets. Ensures robust performance metrics.
+
+4. pipeline.py:
+
+End-to-end pipeline to automate data preprocessing, feature selection, and evaluation. Supports multiple datasets and hyperparameter configurations.
+
+5. optimization.py`
+
+This module provides tools for hyperparameter optimization of the DE-FS algorithm. It performs a grid search over specified ranges for `max_iterations` and `initial_threshold`, identifying the best configuration based on evaluation metrics.
+          
